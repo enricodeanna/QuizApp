@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">Quali di questi sono lieviti o batteri utilizzati nella produzione della birra? Seleziona tutte le risposte corrette.</string>
+    <string name="q8a3">Lievito</string>
+    <string name="question6">Quali di questo sono tradizionalmente considerati luppoli nobili? Seleziona tutte le risposte corrette.</string>
+    <string name="question5">Quali di questi sono malti base? Seleziona tutte le risposte corrette.</string>
+    <string name="question3">Qual era il nome del famoso giornalista, conosciuto come \"Beer Hunter\"?</string>
+    <string name="question2">Cosa significa IPA?</string>
+    <string name="question9">Qual e\' il nome del processo che prevede l\'immagazzinamento della birra in ambiente freddo per diverse settimane prima dell\'imbottigliamento/consumo?</string>
+    <string name="question8">Di cosa e\' fatta principalmente la birra?</string>
+    <string name="q8a4">Acqua</string>
+    <string name="q9a5">Aspettare</string>
+    <string name="question10">Inserisci il nome dell\'ordine religioso i cui monasteri sono famosi birrifici.</string>
+    <string name="question7">Inserisci la formula chimica della molecola che da\' frizzantezza alla birra.</string>
+    <string name="question4">Inserisci l\'acronimo che identifica l\'amerzza della birra.</string>
+    <string name="type_answer">Inserisci la tua risposta qui</string>
+    <string name="q6a2">Tettnanger</string>
+    <string name="q1a5">Salmonella</string>
+    <string name="q1a1">Saccharomyces cerevisiae</string>
+    <string name="q5a1">Orzo tostato</string>
+    <string name="previous">Precedente</string>
+    <string name="q5a3">Malto Pilsen</string>
+    <string name="next">Successivo</string>
+    <string name="q6a4">Nelson Sauvin</string>
+    <string name="q5a4">Malto Monaco</string>
+    <string name="q8a1">Malto</string>
+    <string name="q8a5">Magia</string>
+    <string name="q9a3">Filtraggio</string>
+    <string name="q9a4">Lagherizzazione</string>
+    <string name="q8a2">Luppoli</string>
+    <string name="enter">Inserisci</string>
+    <string name="done">Fatto!</string>
+    <string name="q5a5">Malto Crystal</string>
+    <string name="click_reset">(Clicka reset per ricominciare)</string>
+    <string name="start">Inizia</string>
+    <string name="press_start">Premi Inizia</string>
+    <string name="to_begin_the_quiz">per cominciare il quiz</string>
+    <string name="question">Domanda</string>
+</resources>

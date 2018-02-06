@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beerpicsmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0"
+            android:text="@string/press_start"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0"
+            android:text="@string/to_begin_the_quiz"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:id="@+id/question_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/reset_button"
+                android:onClick="previousQuestion"
+                android:text="@string/previous" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:onClick="reset"
+                android:text="Reset" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/reset_button"
+                android:onClick="nextQuestion"
+                android:text="@string/next" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reset_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="48dp"
+                android:onClick="calculateScore"
+                android:text="@string/done" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
