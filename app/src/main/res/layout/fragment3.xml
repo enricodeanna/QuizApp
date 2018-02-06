@@ -6,36 +6,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_left"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:text="Question"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textSize="@dimen/question_font_size"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/textAnswer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textSize="@dimen/answer_font_size"
             android:hint="@string/type_answer" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/margin_left_double"
+            android:layout_marginRight="@dimen/margin_left_double"
+            android:layout_marginTop="@dimen/margin_top"
             android:onClick="textAnswerEntered"
             android:text="@string/enter" />
 

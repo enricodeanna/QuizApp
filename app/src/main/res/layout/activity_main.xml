@@ -22,7 +22,7 @@
             android:id="@+id/header1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:layout_weight="0"
             android:text="@string/press_start"
             android:textAlignment="center"
@@ -33,7 +33,7 @@
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:layout_weight="0"
             android:text="@string/to_begin_the_quiz"
             android:textAlignment="center"
@@ -43,18 +43,18 @@
             android:id="@+id/question_fragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:layout_weight="1" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:layout_weight="0"
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="112dp"
+                android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/reset_button"
@@ -63,17 +63,17 @@
 
             <Button
                 android:id="@+id/reset_button"
-                android:layout_width="112dp"
+                android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="@dimen/margin_right"
+                android:layout_marginRight="@dimen/margin_right"
                 android:onClick="reset"
                 android:text="Reset" />
 
             <Button
-                android:layout_width="112dp"
+                android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/reset_button"
@@ -81,12 +81,12 @@
                 android:text="@string/next" />
 
             <Button
-                android:layout_width="112dp"
+                android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/reset_button"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginBottom="@dimen/margin_top"
+                android:layout_marginTop="@dimen/margin_top_bigger"
                 android:onClick="calculateScore"
                 android:text="@string/done" />
 
